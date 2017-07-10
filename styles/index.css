@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#splash {
+  height: 100%;
+  width: 100%;
+  background: url("../images/heroshadow.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#splash span {
+  color: #fff;
+  font-size: 4em;
+  position: relative;
+  top: 50%;
+  cursor: pointer;
+  display: block;
+}
+
+#hero {
+  width: 50%;
+}
+
+#tagline {
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+#content {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#about-content {
+  padding: 1em;
+}
+
+#about-content h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#about-content a {
+  color: #000;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  height: 1px;
+}
+
+#team {
+  width: 100%;
+  height: auto;
+}
+
+#team-info {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #000;
+}
+
+#team-info img {
+  margin-bottom: 10px;
+}
+
+#team-left {
+  float: left;
+  padding: 20px;
+}
+
+#team-right {
+  float: right;
+  padding: 20px;
+}
+
+#team-middle {
+  text-align: center;
+  padding: 20px;
+}
+
+#team-info span, #team-info a {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: .05em
+}
+
+#team-info a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2em;
+}
+
+.team-name {
+  font-weight: bold;
+}
+
+#footer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+#footer a {
+  display: inline;
+  text-decoration: none;
+  color: #1D1F20;
+  font-size: 1em;
+  line-height: 60px;
+}
+
+@media (min-width: 280px) and (max-width: 640px) {
+  #splash img {
+    width: 80%;
+  }
+
+  #tagline {
+    font-size: 1.4em;
+  }
+
+  #about-content h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media (min-device-width: 280px) {
+  #team-left, #team-right {
+    float: none;
+    text-align: center;
+  }
+
+  .team-name, .team-position {
+    font-size: 1em !important;
+  }
+
+  .team-avatar img {
+    height: 10em;
+  }
+}
+
+@media (min-width:481px) {
+  .team-name, .team-position {
+    font-size: 1.1em !important;
+  }
+
+  .team-avatar img {
+    height: 12em;
+  }
+}
+
+@media (min-width:641px) and (max-width:1281px) {
+  #splash p {
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width:641px) {
+  #team-info {
+    text-align: center;
+  }
+
+  #team-left {
+    float: left;
+    padding: 20px;
+  }
+
+  #team-right {
+    float: right;
+    padding: 20px;
+  }
+
+  #team-middle {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #footer {
+    clear: both;
+  }
+}
+
+@media (min-width:1281px) {
+  .team-name, .team-position {
+    font-size: 1.2em !important;
+  }
+}
