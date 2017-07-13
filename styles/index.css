@@ -3,6 +3,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html, body, #panel {
+  height: 100%;
+}
+
 #splash {
   height: 100%;
   width: 100%;
@@ -19,7 +23,7 @@
   color: #fff;
   font-size: 4em;
   position: relative;
-  top: 50%;
+  top: 45%;
   cursor: pointer;
   display: block;
 }
