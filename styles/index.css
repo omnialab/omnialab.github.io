@@ -125,6 +125,10 @@ hr {
   line-height: 60px;
 }
 
+.team-avatar img {
+
+}
+
 @media (min-width: 280px) and (max-width: 640px) {
   #splash img {
     width: 80%;
@@ -150,7 +154,7 @@ hr {
   }
 
   .team-avatar img {
-    height: 10em;
+    border-radius: 50%;
   }
 }
 
