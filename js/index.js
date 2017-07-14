@@ -1,7 +1,5 @@
-$(function() {
-  $('#splash span').on('click', function() {
-    $('html, body').animate({
-      scrollTop: $('#content').offset().top
-    }, 1000);
-  });
-});
+document.addEventListener('DOMContentLoaded', function() {
+	document.querySelector('#splash span').addEventListener('click', function() {
+		document.querySelector('#content').scrollIntoView();
+	}, false);
+}, false);
